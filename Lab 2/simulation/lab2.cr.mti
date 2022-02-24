@@ -1,0 +1,36 @@
+{C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/top.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation/top_tb.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation/top_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/x_logic.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/x_logic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module x_logic
+
+Top level modules:
+	x_logic
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/full_adder.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/full_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/y_logic.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/y_logic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module y_logic
+
+Top level modules:
+	y_logic
+
+} {} {}}

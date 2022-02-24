@@ -1,0 +1,119 @@
+|top
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+S1 => S1.IN4
+S0 => S0.IN4
+Cin => Cin.IN1
+F[0] <= full_adder:bit_0.F
+F[1] <= full_adder:bit_1.F
+F[2] <= full_adder:bit_2.F
+F[3] <= full_adder:bit_3.F
+Cout <= full_adder:bit_3.Cout
+
+
+|top|full_adder:bit_0
+A => A.IN1
+B => B.IN1
+S1 => S1.IN1
+S0 => S0.IN2
+Cin => Add1.IN4
+F <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_0|x_logic:x
+A => X.IN0
+A => X.IN1
+S1 => X.IN0
+S1 => X.IN1
+S0 => X.IN1
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_0|y_logic:y
+S0 => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_1
+A => A.IN1
+B => B.IN1
+S1 => S1.IN1
+S0 => S0.IN2
+Cin => Add1.IN4
+F <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_1|x_logic:x
+A => X.IN0
+A => X.IN1
+S1 => X.IN0
+S1 => X.IN1
+S0 => X.IN1
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_1|y_logic:y
+S0 => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_2
+A => A.IN1
+B => B.IN1
+S1 => S1.IN1
+S0 => S0.IN2
+Cin => Add1.IN4
+F <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_2|x_logic:x
+A => X.IN0
+A => X.IN1
+S1 => X.IN0
+S1 => X.IN1
+S0 => X.IN1
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_2|y_logic:y
+S0 => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_3
+A => A.IN1
+B => B.IN1
+S1 => S1.IN1
+S0 => S0.IN2
+Cin => Add1.IN4
+F <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_3|x_logic:x
+A => X.IN0
+A => X.IN1
+S1 => X.IN0
+S1 => X.IN1
+S0 => X.IN1
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|full_adder:bit_3|y_logic:y
+S0 => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

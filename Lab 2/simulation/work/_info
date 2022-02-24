@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Homework/HW 2/2.4
+vfull_adder
+Z0 !s110 1644516894
+!i10b 1
+!s100 5ICHJmW193NfQhLnSQ3>;3
+I]9=IhgKTIHnKQMoBVmkUK1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation
+w1644464405
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/full_adder.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/full_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1644516894.000000
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/full_adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtop
+Z7 !s110 1644516895
+!i10b 1
+!s100 Ki15CBA95Mo:LjlSIV38N3
+I[V5[NzP]3R@^Oc_:@S1U40
+R1
+R2
+w1644468525
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/top.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1644516895.000000
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/top.v|
+!i113 1
+R5
+R6
+vtop_tb
+R7
+!i10b 1
+!s100 SYfK_CiQW;?F`QcXK[c783
+IXc@zTiNED60LWS<QO@]1c1
+R1
+R2
+w1644516885
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation/top_tb.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation/top_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation/top_tb.v|
+!i113 1
+R5
+R6
+vx_logic
+R7
+!i10b 1
+!s100 ?@<<8U_G]HYz39i2YXGDK0
+IhQI@:2k:o^Hn6?YQ`@lW81
+R1
+R2
+w1644463894
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/x_logic.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/x_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/x_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/x_logic.v|
+!i113 1
+R5
+R6
+vy_logic
+R0
+!i10b 1
+!s100 igf=09h9JgOAUkZ?;_a3]0
+ISJQ50fjE:_nE[_m@FKf_N0
+R1
+R2
+w1644463979
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/y_logic.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/y_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/y_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/y_logic.v|
+!i113 1
+R5
+R6
