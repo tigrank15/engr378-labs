@@ -1,0 +1,13 @@
+module d_latch(G, D, Q, Q_bar);
+
+	input G, D;
+	output Q, Q_bar;
+	
+	always @(*) begin
+		if (G)
+			Q <= D;
+	end
+	
+	assign Q_bar = ~Q;
+
+endmodule

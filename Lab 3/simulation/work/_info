@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation
+vd_latch
+Z0 !s110 1645673435
+!i10b 1
+!s100 :jA>N6THgo?:QeO3?Pmde3
+IC;MLeOg>:0alnY[`PbX8=1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation
+w1645672820
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1645673435.000000
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vd_latch_tb
+R0
+!i10b 1
+!s100 1li`9h99PP6`o5BhKEnGG1
+I66@kPQn05^KfzJO>PcId61
+R1
+R2
+w1645672959
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v|
+!i113 1
+R5
+R6
