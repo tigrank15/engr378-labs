@@ -1,1 +1,36 @@
+{C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/two_bit_counter.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/two_bit_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module two_bit_counter
 
+Top level modules:
+	two_bit_counter
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_latch
+
+Top level modules:
+	d_latch
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/two_bit_counter_tb.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/two_bit_counter_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module two_bit_coutner_tb
+
+Top level modules:
+	two_bit_coutner_tb
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/d_latch_tb.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/d_latch_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_latch_tb
+
+Top level modules:
+	d_latch_tb
+
+} {} {}} {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/jk_ff.v} {1 {vlog -work work -stats=none {C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/jk_ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jk_ff
+
+Top level modules:
+	jk_ff
+
+} {} {}}

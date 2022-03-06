@@ -1,7 +1,7 @@
-module jk_ff(j, k, clk, q, q_n);
+module jk_ff(j, k, clk, q);
 
 	input j, k, clk;
-	output q, q_n;
+	output q;
 	reg q_int;
 
 	always @(posedge clk)
@@ -21,6 +21,6 @@ module jk_ff(j, k, clk, q, q_n);
 	
 	end
 	assign q = q_int;
-	assign q_n = ~q;
+	
 
 endmodule

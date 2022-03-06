@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Lab 2/simulation
 vd_latch
-Z0 !s110 1645673435
+Z0 !s110 1646279374
 !i10b 1
 !s100 :jA>N6THgo?:QeO3?Pmde3
 IC;MLeOg>:0alnY[`PbX8=1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1645673435.000000
+Z4 !s108 1646279374.000000
 !s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch.v|
 !i113 1
@@ -33,20 +33,83 @@ vd_latch_tb
 R0
 !i10b 1
 !s100 1li`9h99PP6`o5BhKEnGG1
-I66@kPQn05^KfzJO>PcId61
+IQUmG0OS1?M?cf6?<fC=a81
 R1
 R2
 w1645672959
-8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v
-FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/d_latch_tb.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/d_latch_tb.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/d_latch_tb.v|
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/d_latch_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/d_latch_tb.v|
+!i113 1
+R5
+R6
+vjk_ff
+R0
+!i10b 1
+!s100 cPeHi`TOS8J2a^JcO]kmW3
+I3KaoO`YCWA^eWl3Kl3^dJ1
+R1
+R2
+w1646276726
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/jk_ff.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/jk_ff.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/jk_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/jk_ff.v|
+!i113 1
+R5
+R6
+vtwo_bit_counter
+R0
+!i10b 1
+!s100 2Dm6AKnPF6a@R0fGgnNNb3
+Ij[JeX2gY1kQR4llbR7[C11
+R1
+R2
+w1646279372
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/two_bit_counter.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/two_bit_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/two_bit_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/two_bit_counter.v|
+!i113 1
+R5
+R6
+vtwo_bit_coutner_tb
+R0
+!i10b 1
+!s100 KGkdR>HGCJ<c91KFf:9mQ3
+I;kkTM<Ozn7dK1hnf^iEL31
+R1
+R2
+w1646278382
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/two_bit_counter_tb.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/two_bit_counter_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/two_bit_counter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 3/simulation/two_bit_counter_tb.v|
 !i113 1
 R5
 R6
