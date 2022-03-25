@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'btn[0]'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'btn[0]'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'btn[0]'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'btn[0]'
+Slack : 0.027
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,110 @@
+|converter_module
+sw[0] => LessThan0.IN8
+sw[0] => sw_int_lsb.DATAA
+sw[0] => LessThan1.IN8
+sw[0] => Mod0.IN7
+sw[0] => Div0.IN7
+sw[0] => sw_int_lsb.DATAA
+sw[0] => Mux0.IN7
+sw[1] => LessThan0.IN7
+sw[1] => sw_int_lsb.DATAA
+sw[1] => LessThan1.IN7
+sw[1] => Mod0.IN6
+sw[1] => Div0.IN6
+sw[1] => sw_int_lsb.DATAA
+sw[1] => Mux2.IN7
+sw[2] => LessThan0.IN6
+sw[2] => sw_int_lsb.DATAA
+sw[2] => LessThan1.IN6
+sw[2] => Mod0.IN5
+sw[2] => Div0.IN5
+sw[2] => sw_int_lsb.DATAA
+sw[2] => Mux3.IN7
+sw[3] => LessThan0.IN5
+sw[3] => sw_int_lsb.DATAA
+sw[3] => LessThan1.IN5
+sw[3] => Mod0.IN4
+sw[3] => Div0.IN4
+sw[3] => sw_int_lsb.DATAA
+sw[3] => Mux4.IN7
+btn[0] => btn[0].IN1
+btn[1] => btn[1].IN1
+btn[2] => btn[2].IN1
+mode[6] <= mode_display:d_mode.result
+mode[5] <= mode_display:d_mode.result
+mode[4] <= mode_display:d_mode.result
+mode[3] <= mode_display:d_mode.result
+mode[2] <= mode_display:d_mode.result
+mode[1] <= mode_display:d_mode.result
+mode[0] <= mode_display:d_mode.result
+MSB[6] <= s_s_display:d_msb.result
+MSB[5] <= s_s_display:d_msb.result
+MSB[4] <= s_s_display:d_msb.result
+MSB[3] <= s_s_display:d_msb.result
+MSB[2] <= s_s_display:d_msb.result
+MSB[1] <= s_s_display:d_msb.result
+MSB[0] <= s_s_display:d_msb.result
+LSB[6] <= s_s_display:d_lsb.result
+LSB[5] <= s_s_display:d_lsb.result
+LSB[4] <= s_s_display:d_lsb.result
+LSB[3] <= s_s_display:d_lsb.result
+LSB[2] <= s_s_display:d_lsb.result
+LSB[1] <= s_s_display:d_lsb.result
+LSB[0] <= s_s_display:d_lsb.result
+
+
+|converter_module|mode_display:d_mode
+btn[0] => Decoder0.IN2
+btn[1] => Decoder0.IN1
+btn[2] => Decoder0.IN0
+result[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= <VCC>
+
+
+|converter_module|s_s_display:d_msb
+sw[0] => Decoder0.IN3
+sw[1] => Decoder0.IN2
+sw[2] => Decoder0.IN1
+sw[3] => Decoder0.IN0
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+result[6] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|converter_module|s_s_display:d_lsb
+sw[0] => Decoder0.IN3
+sw[1] => Decoder0.IN2
+sw[2] => Decoder0.IN1
+sw[3] => Decoder0.IN0
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+en => result.OUTPUTSELECT
+result[6] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+

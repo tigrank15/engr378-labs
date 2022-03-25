@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vconverter_module
+Z0 !s110 1647056477
+!i10b 1
+!s100 i_5RJla5?eDb<Um6YoKb10
+IU0a_EG?7]f_T@c?_5gk]N3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation
+w1647056472
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1647056477.000000
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vconverter_module_tb
+R0
+!i10b 1
+!s100 MEGMnZKQ4AE<G`d32@cc:2
+IH>oMWW5e^kgi`dJJioIkj3
+R1
+R2
+w1647055795
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module_tb.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/converter_module_tb.v|
+!i113 1
+R5
+R6
+vmode_display
+R0
+!i10b 1
+!s100 o@a]SE:z21E1JTH]V:CD81
+I6UZhE@VgCR>_4HGYdRDSK2
+R1
+R2
+w1646886688
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/mode_display.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/mode_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/mode_display.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/mode_display.v|
+!i113 1
+R5
+R6
+vs_s_display
+R0
+!i10b 1
+!s100 H^<mReFPcOMHmgRQ=93=20
+I[Fi666OX9IC;NJ>]:D3Nd1
+R1
+R2
+w1646885793
+8C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/s_s_display.v
+FC:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/s_s_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/s_s_display.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JPL-ST-SPRING2021/Documents/ENGR 378/Labs/Lab 4/simulation/s_s_display.v|
+!i113 1
+R5
+R6
